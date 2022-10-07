@@ -249,6 +249,30 @@ body{
     border-color: #64ffda;
 }
 
+.card:hover h5{
+	color: #64ffda !important;
+}
+
+.card a{
+	color: #8892b0;
+}
+
+.icon {
+    width: 10px;
+    height: 10px;
+    /* background-color: #eee; */
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    font-size: 30px;
+	margin-left: 90%;
+}
+
+.icon a:hover{
+	color: #64ffda;
+}
+
 .project-heading-txt{  
 	margin-bottom: 40px;
 	font-size: 30px;
@@ -269,21 +293,22 @@ body{
 	font-weight: 740;
 }
 
-h5{
+/* h5{
 	color: white;
 	font-size: 23px;
-	text-align: left;
 	margin-bottom: 15px;
-}
+} */
 
 .projects h5{
+	text-align: left;
 	color: #ccd6f6;
-	margin-bottom: 50px;
+	margin-bottom: 40px;
+	margin-top: 10px;
 }
 
 
 
-/* Get in tourch er style */
+/* keep in tourch er style */
 
 footer{
 	position: relative;
@@ -294,6 +319,10 @@ footer{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+}
+
+.footer-text{
+	color: #abb7d4 !important;
 }
 
 .social{
@@ -324,181 +353,9 @@ footer{
 
 
 
+/* Dash line of section titles */
 
-
-.icon {
-    width: 10px;
-    height: 10px;
-    /* background-color: #eee; */
-    border-radius: 15px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: right;
-    font-size: 30px;
-	margin-left: 90%;
+.dash-line{
+	color: #abb7d4;
+	font-size: medium;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .btn{
-	background-color:#f9004d;
-	color: white;
-	text-decoration: none;
-	border: 2px solid transparent;
-	font-weight: bold;
-	padding: 10px 25px;
-	border-radius: 30px;
-	transition: transform .4s; 
-}
-.btn:hover{
-	transform: scale(1.2);
-} */
-
-
-
-
-/* 
-h1{
-	color: white;
-	margin: 20px 0px 20px;
-	font-size: 75px;
-} */
-
-
-
-/* h4{
-	color: #fcfc;
-	letter-spacing: 2px;
-	font-size: 20px;
-} */
-
-
-
-/* .about-text h2{
-	color: white;
-	font-size: 75px;
-	text-transform: capitalize;
-	margin-bottom: 20px;
-} */
-
-
-/* .about-text h5{
-	color: white;
-	letter-spacing: 2px;
-	font-size: 22px;
-	margin-bottom: 25px;
-	text-transform: capitalize;
-} */
-
-/* .about-text p{
-	color: #fcfc;
-	letter-spacing: 1px;
-	line-height: 28px;
-	font-size: 18px;
-	margin-bottom: 45px;
-} */
-
-
-
-
-/* .service{
-	background: #101010;
-	width: 100%;
-	padding: 100px 0px;
-} */
-
-
-/* .title h2{
-	color: white;
-	font-size: 75px;
-	width: 1130px;
-	margin: 30px auto;
-	text-align: center;
-} */
-
-
-/* .box{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 400px;
-} */
-
-
-
-/* .card i{
-	font-size: 50px;
-	display: block;
-	text-align: center;
-	margin: 25px 0px;
-	color: #f9004d;
-
-} */
-
-
-
-/* .pra p{
-	color: #fcfc;
-	font-size: 16px;
-	line-height: 27px;
-	margin-bottom: 25px;
-} */
-
-
-/* .card .button{
-	background-color:#f9004d;
-	color: #64ffda;
-	text-decoration: none;
-	border: 2px solid transparent;
-	font-weight: bold;
-	padding: 9px 22px;
-	border-radius: 30px;
-	transition: .4s; 
-} */
-
-/* .card .button:hover{
-	background-color: transparent;
-	border: 2px solid #f9004d;
-	cursor: pointer;
-} */
-
-
-
-/* footer p:nth-child(1){
-	font-size: 30px;
-	color: white;
-	margin-bottom: 20px;
-	font-weight: bold;
-}
-
-footer p:nth-child(2){
-	color: white;
-	font-size: 17px;
-	width: 500px;
-	text-align: center;
-	line-height: 26px;
-} */
-
-
-
-
-
-/* .end{
-	position: absolute;
-	color:#f9004d;
-	bottom: 35px;
-	font-size: 14px; 
-} */
