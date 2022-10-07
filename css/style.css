@@ -149,6 +149,7 @@ body{
 
 .about{
 	width: 100%;
+	height: 750px;
 	padding: 100px 0px;
 	background-color: #0a192f;
 	margin-left: 12%;
@@ -197,6 +198,7 @@ body{
 
 .skill{
 	margin-top: 3%;
+	height: 500px;
 	/* margin-left: 20%; */
 }
 
@@ -247,6 +249,26 @@ body{
     border-color: #64ffda;
 }
 
+.project-heading-txt{  
+	margin-bottom: 40px;
+	font-size: 30px;
+	line-height: 1.1;
+	font-weight: 650;
+	color: #ccd6f6;
+	font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif !important;
+}
+
+#project-heading-area{
+	margin-bottom: 10% !important;
+}
+
+.projects p{
+	color: #8892b0;
+	text-align: left;
+	font-size: 16px;
+	font-weight: 740;
+}
+
 h5{
 	color: white;
 	font-size: 23px;
@@ -254,6 +276,10 @@ h5{
 	margin-bottom: 15px;
 }
 
+.projects h5{
+	color: #ccd6f6;
+	margin-bottom: 50px;
+}
 
 
 
@@ -300,14 +326,17 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
+.icon {
+    width: 10px;
+    height: 10px;
+    /* background-color: #eee; */
+    border-radius: 15px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    font-size: 30px;
+	margin-left: 90%;
+}
 
 
 
