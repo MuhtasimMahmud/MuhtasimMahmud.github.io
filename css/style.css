@@ -162,10 +162,13 @@ body{
 	height: auto;
 	width: 430px;
 	border-radius: 10px;
+    filter: blur(5px);
 	filter: grayscale(100%);
 }
 
 .about img:hover{
+	transform: scale(1);
+	transition: 1s;
 	filter: grayscale(0%);
 }
 
@@ -219,8 +222,9 @@ body{
 	font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
 }
 
-/* Project card er style */
 
+
+/* Project card er style */
 
 .card{
 	height: 265px;
@@ -228,9 +232,9 @@ body{
 	padding: 20px 35px;
 	background: #112240;
 	border-radius: 5px;
-	margin-bottom: 14px !important;
-	margin-left: 5px !important;
-	margin-right: 5px !important;
+	margin-bottom: 12px !important;
+	margin-left: 6px !important;
+	margin-right: 6px !important;
 	margin-top: 1px !important;
 	position: relative;
 	overflow: hidden;
@@ -238,8 +242,9 @@ body{
 }
 
 .card:hover{
-	transform: scale(1.1);
-	transition: .4s;
+	transform: scale(1);
+	transition: 2s;
+    border-color: #64ffda;
 }
 
 h5{
@@ -286,6 +291,7 @@ footer{
 .social a:hover{
 	transform: scale(2);
 	transition: .3s;
+    color: #64ffda;
 }
 
 
