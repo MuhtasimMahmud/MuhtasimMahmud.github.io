@@ -370,12 +370,13 @@ footer{
 /* max-width : 600px mane hocche screen er size 600px er shoman ba er theke kom hole eta kaj korbe */
 /* min-width : 600px mane hocche screen er size 600px er shoman ba er theke boro hole eta kaj korbe */
 
-/* @media screen and (max-width: 1000px) {
+@media screen and (max-width: 500px) {
 	.navbar{
-		margin-bottom: 20%;
+		margin-bottom: 60%;
+		width: 500px;
 	}
 	#Home_section{
-		margin-top: 25%;
+		margin-top: 50%;
 	}
 
 	.navbar .btn{
@@ -385,4 +386,4 @@ footer{
 	.content{
 		height: 800px;
 	}
-  } */
+  }
