@@ -118,7 +118,7 @@ h6 {
   color: #fff;
   line-height: 1;
   margin-right: 15px;
-  border-radius: 30%;
+  border-radius: 80%;
   width: 40px;
   height: 40px;
   border-style: solid;
@@ -442,6 +442,19 @@ section .container {
 .about-me .content p:last-child {
   margin-bottom: 0;
 }
+
+
+/* 
+.about-me img{
+  filter: blur(5px);
+	filter: grayscale(100%);
+}
+
+.about-me img:hover{
+	transform: scale(1);
+	transition: 1s;
+	filter: grayscale(0%);
+} */
 
 /*--------------------------------------------------------------
 # Counts
